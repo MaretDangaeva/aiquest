@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'team-quest/**'
+      - 'snowmail/**'
       - '.github/workflows/deploy-pages-team-quest.yml'
   workflow_dispatch:
 permissions:
